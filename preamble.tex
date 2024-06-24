@@ -111,3 +111,14 @@
 
 % Datetime format
 \usepackage{datetime}
+
+% Images backgrounds
+\usepackage{tikz}
+\usepackage{eso-pic}
+\AddToShipoutPictureBG{%
+\begin{tikzpicture}[remember picture, overlay]
+\node[opacity=.3, inner sep=0pt]
+    at(current page.center){\includegraphics[width=\paperwidth,
+    height=\paperheight]{billeder/Bush_01.png}};
+\end{tikzpicture}%
+}

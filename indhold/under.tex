@@ -4,7 +4,7 @@
 Under vagten er der diverse opgaver, der skal løses. 
 Vi forventer I er høflige og møder gæsterne med smil og smuk ånd.
 
-Husk at vaske eller sprite dine hænder af flere gange 
+Husk at vaske eller sprite hænder af flere gange 
 i løbet af vagten (sprit står på bordet i vognen).
 
 For dem som står ude i køen, er der nogle opgaver vi skal have løst, inden folk kommer til 
@@ -29,6 +29,10 @@ Nogle gange skal folk ikke sætte kontanter ind, men skal blot have hjælp til:
   \end{itemize}
 \end{itemize}
 
+\tikz[remember picture,overlay] 
+\node[opacity=0.3,inner sep=0pt] at (current page.center)
+{\includegraphics[width=\paperwidth,height=\paperheight]{billeder/Cashless_detaljeret_RGB.png}};
+
 \subsection{Cashless-appen}
 
 Det er en god ide at I selv, inden I tager på jeres første vagt, opretter jer på
@@ -41,17 +45,17 @@ Cashless-appen (om de vil det eller ej),
 i tilfælde af at de ikke bruger alle deres penge, skal en konto tilknyttes til tilbagebetaling efter
 festivalen. Hvis gæsterne har oprettet sig sidst år, behøver de det ikke igen i år.
 Hvis gæsten ikke kan overbevises, eller ikke har mulighed for at oprette sig, er det kun muligt 
-for dem at købe Walterkort (Se længere nede).
+for dem at købe Walterkort, for deres kontanter (Se længere nede).
 
-\subsection{Kasseapparat}
+\subsection{Kasseapparater}
 Vi har nogle særlige kasseapparater, lavet specifikt til vores arbejde, derfor er dette den bedste guide hertil. 
-For at lære om kasseapparates generelle features, kan man læse betjeningsvejledningen fra 2019:
+For at lære om kasseapparatets generelle funktioner, kan man læse betjeningsvejledningen fra 2019:
 \begin{center}
   \small
   \href{https://memba.dk/media/478278/betjeningsvejledning-til-kasseterminal-2019-4.pdf}{https://memba.dk/media/478278/betjeningsvejledning-til-kasseterminal-2019-4.pdf}
 \end{center}
 
-Vi har tre kasseapparater til indsættelse af kontanter, og køb af walterkort. Men derudover har vi også en 
+Vi har tre kasseapparater til indsættelse af kontanter, og køb af Walterkort. Men derudover har vi også en 
 enkelt kasse til udbetaling af kontanter for pant (Se længere nede).
 
 \subsection{Kontanter}
@@ -60,16 +64,16 @@ Selvom at man står ude i køen og hjælper, og har nogle lidt andre opgaver,
 er det godt at vide hvad dem inde i pengekassen laver, 
 så man ikke kommer til at henvise gæster de forkerte steder hen.
 
-Pengekassen primære opgaver er at veksle kolde kontanter (KUN SEDLER! Ingen mønter) til ``enheder'' på gæsternes armbånd, 
+Pengekassens primære opgaver er at veksle kolde kontanter (KUN SEDLER! Ingen mønter) til ``enheder'' på gæsternes armbånd, 
 som de kan bruge inde på pladsen, til at købe kolde fadøl.
 
 Det foregår nogenlunde således:
 \begin{itemize}
-  \item Tæl seddlerne
-  \item Tryk `Indsæt beløb' på kasseapparatet, og bed gæsten om at bipe NFC-chippen på det armbånd pengene 
+  \item Tæl sedlerne
+  \item Tryk `Indsæt beløb' på kasseapparatet, og bed gæsten om at bippe NFC-chippen på det armbånd pengene 
   skal lægges over på.
   \item En popup vil dukke frem, hvori beløbbet indtastes. 
-  Check at beløbbet stemmer, og tryk `Indsæt'.
+  Check at beløbbet stemmer, og tryk `Ok'.
   \item Derefter printes en automatisk kvittering, som du kan tilbyde kunden, eller smide ud.
   \item Sedlerne sorteres i bestikbakker under bordet, efter størrelse.
 \end{itemize}
@@ -79,7 +83,7 @@ Hertil er der nogle ting man skal være opmærksomme på.
   \item Det vigtigt at pointere at det ikke er muligt for 
   os i pengekassen at trække enheder ud af gæsternes armbånd.
   Det betyder at man skal være sikker på, at det beløb man overfører til armåndet, 
-  stemmer med hvad gæsten har aflevert. Et tip til at undgå det, er
+  stemmer med hvad gæsten har afleveret. Et tip til at undgå det, er
   at lave saldocheck ved høje beløbber eller ved mange sedler.
   Skulle det alligevel ske, skal der laves en sag på det, og udfyldes et
   udbetalingsbilag så vi kan håntere korrektioner.
@@ -87,10 +91,10 @@ Hertil er der nogle ting man skal være opmærksomme på.
   hvis man skulle være i tvivl. Derudover skal de være forsvarligt indtagte, og ikke mindst ægte. 
   Det er dog ikke sådant at I skal checke hver enkelt seddel, da man typisk efter at have 
   hånteret et par sedler, kan mærke hvordan de skal føles.
-  \item Beløbsgrænser: Max indbetaling på armbånd er 19.000 kr. per dag.
+  \item Beløbsgrænser: Max indbetaling på armbånd er \underline{19.000} kr. per dag.
   \item Valuta: Kommer gæsten med udenlandsk valuta, tager vi også imod dem. Nedenfor 
   kan I se valutakurserne, for de sedler vi tager imod. Brug gerne en lommeregner til 
-  at lave udregningen.
+  at lave udregningen, og undgå fejl.
   \begin{itemize}
     \item Kursen på euro er 7,5. Dvs. 100 EUR bliver til 750 DKK.
   \end{itemize}
@@ -100,10 +104,10 @@ Som nævnt sorteres sedlerne i bestikbakker under bordet, en til hvert kasseappa
 Disse skal tømmes når de er ved at være fyldte, eller ved luk. Sedlerne må ikke blandes mellem kasser, 
 da vi skal sørge for at alt bliver afstemt korrekt.
 
-Dette gøres således af den med ansvaret for at pakke poser, og levere dem til Banken ved siden af.
+Den med ansvaret for at pakke poser, og levere dem til Banken ved siden af, gør således:
 \begin{enumerate}
   \item Vælg 'Udskriv status' på kasseapparatet. En kvittering vil blive printet.
-  \item Tag kvitteringen og sedlerne fra bakken med hen til indhakket ved indgangen, 
+  \item Tag kvitteringen og sedlerne fra bakken med hen til indhakket ved indgangen, til vognen
   \item Tag et sæt gennemslagspapir (tre sider), og skriv nedstående oplysninger på forsiden:
   \begin{itemize}
     \item Dato
@@ -113,7 +117,7 @@ Dette gøres således af den med ansvaret for at pakke poser, og levere dem til 
     \item Beløbbet på afstemningskvitteringen
     \item Underskrift/Signatur
   \end{itemize}
-  \item Tag så en pengepose, og så skal disse ting ned i posen:
+  \item Tag en pengepose, og kom disse ting ned i posen:
   \begin{itemize}
     \item Alle sedler fra kassen, sorteret efter størrelse, så det er hurtigere for dem i Banken at 
     tælle dem. 
@@ -133,25 +137,25 @@ Gæsterne kan købe dem med kort eller kontanter, og kortene er foruddefineret m
   \item 2000 kr.
 \end{itemize} 
 
-Nogle forskellige virksomheder har forudbestilt walterkort til deres medarbejdere, 
-som de kommer og henter ved os. 
+Nogle forskellige virksomheder har forudbestilt Walterkort til deres medarbejdere, 
+som de kommer og henter hos os. 
 De ligger i hver deres kurvert, og på en tilhørende liste, findes det tilknyttede navn 
 og hvad der står på kurverten.
-Da walterkortene er forudbetalte SKAL den person 
-som står til at skulle hente kortene, være den der henter dem, af sikkerhedsmæssige årsager.
+Da Walterkortene er forudbetalte SKAL den person 
+som står til at skulle hente kortene, være den der henter dem.
 Walterkortene er talt på forhånd, men ofte vil gæsterne gerne tælle efter, 
 og checke at de har de rigtige beløber.
 Derudover skal gæsten skrive under på at de har hentet kortene.
 
-Der vælges en luge tættest ved walterkortene, til håndtering hertil.
+Der vælges en luge tættest ved Walterkortene, til håndtering hertil.
 
-De walterkort gæsterne har bestilt på forhånd har blanke bagsider, modsat dem vi sælger,
+De Walterkort gæsterne har bestilt på forhånd har blanke bagsider, modsat dem vi sælger,
 som har en guide på bagsiden, til at få pengene retur efter festivalen.
 Blanke bagsider kan IKKE byttes til andre af samme værdi. Kun hvis de har en guide på bagsiden 
 kan de godt, men vi vil helst undgå det.
 
-Opstår der problemer med walterkort, som I ikke kan løse, kan I kontakte mig (Anders), eller Rikke Møller 
-inde i banken ved siden af, eller på 12 34 56 78. 
+Opstår der problemer med Walterkort, som I ikke kan løse, kan I altid kontakte mig (Anders), eller Rikke Møller 
+inde i banken ved siden af, eller på \underline{26284116}. 
 % Snak i formandsreceptionen I stedet for i lågerne
 
 \subsection{Pantkassen}
@@ -160,14 +164,18 @@ Det er muligt at aflevere pant på Smukfest, men disse steder indbetaler kun enh
 Derfor kan der være nogle der vil have pengene kontant. Hertil har vi et særligt kasseapparat.
 
 Pantkassen står fast længst inde i vognen, op af væggen, og tages frem når vi udbetaler pant.
-Vi udbetaler kun pant ...
+Vi udbetaler kun pant indenfor åbnningstiderne...
 
 Vi udbetaler kun i sedler, så hvis beløbet ikke helt kan udbetales, rundes der ned 
 til nærmeste seddel, og resten bliver ikke udbetalt. 
 Før vi kan udbetale pant, skal vi bruge nogle kontanter, og dette må IKKE gøres med dem vi modtager.
 I stedet skal vi ind i Banken og hente en talt pose penge, når vi får brug hertil.
 
-Derudover skal man være opmærksom på at man max må udbetale pant for 8.000 kr. per dag.
+Derudover skal man være opmærksom på at man max må udbetale pant for \underline{8.000} kr. per dag.
+
+\tikz[remember picture,overlay] 
+\node[opacity=0.3,inner sep=0pt] at (current page.center)
+{\includegraphics[width=\paperwidth,height=\paperheight]{billeder/Burger.png}};
 
 \subsection{Mad}
 
@@ -212,3 +220,7 @@ og lav en god overlevering.
 %rent faktisk kan.
 
 % Hvor mange poser har vi pakket og sendt afsted + beløb 
+
+\tikz[remember picture,overlay] 
+\node[opacity=0.3,inner sep=0pt] at (current page.center)
+{\includegraphics[width=\paperwidth,height=\paperheight]{billeder/Cashless_simpel_RGB.png}};
